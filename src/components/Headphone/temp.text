@@ -1,0 +1,44 @@
+const Headphonemodels = () => {
+  return (
+    <div className="w-[100%] my-28">
+      <div className="headphone-model flex w-[90%] h-[80vh] mx-auto justify-between">
+        <img
+          src={require("../../images/category-headphones/desktop/image-xx59.jpg")}
+          alt=""
+          className="headphone-img h-full w-[50%]"
+        />
+        <div className="headphone-indiv flex flex-col w-[30%] items-start mx-auto justify-center gap-3">
+          <span className="headphone-new text-gray-500">NEW PRODUCT</span>
+          <span className="headphone-title text-4xl font-semibold text-[#D87D4A]">
+            XX59 HEADPHONES
+          </span>
+          <p>
+            The new XX99 Mark II headphones is the pinnacle of pristine audio.
+            It redefines your premium headphone experience by reproducing the
+            balanced depth and precision of studio-quality sound.
+          </p>
+          <button className="headphone-btn bg-black text-white p-3">
+            SEE PRODUCT
+          </button>
+        </div>
+      </div>
+      <div className="headphone-model">
+        <img alt="" />
+        <div>
+          <span>NEW PRODUCT</span>
+          <span>XX99 MARK II HEADPHONES</span>
+          <button>SEE PRODUCT</button>
+        </div>
+      </div>
+      <div className="headphone-model">
+        <img alt="" />
+        <div>
+          <span>NEW PRODUCT</span>
+          <span>XX99 MARK I HEADPHONES</span>
+          <button>SEE PRODUCT</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default Headphonemodels;
